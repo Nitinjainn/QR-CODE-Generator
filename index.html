@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><img src="mstile-150x150.png" alt=""></div>
+        <nav>
+            <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FEATURES</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button>CONTACT</button></a>
+    </header>
+    <div class="content">
+        <h1>Create QR code !!</h1>
+        <p class="hpara">Create Unique QR Codes with Customization</p>
+        <br>
+        <p class="para">With the help of QR Code Generator, you can make customized QR Codes <br>
+             for your company, website, or any other objective. <br>You can quickly and easily create QR Codes in a variety of forms and <br>styles using our intuitive UI.</p>
+    </div>
+    <br>
+    <br>
+    <div class="specification">
+       <div class="spec"> 
+           <h1>FREE</h1>
+           <h2>Specs @0</h2>
+           <p>Create as many as 10 QR codes.
+            Get QR codes as PNG files for basic customisation.
+            </p>
+       </div>
+       <div class="spec">
+        <h1>PRO</h1>
+          <h2>Specs @59</h2>
+          <p>Create an infinite number of QR codes.
+            Download EPS, SVG, and PNG files for QR codes.
+            </p>
+       </div>
+    </div>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <div class="features">
+        <div class="box" >
+         <h1>Easy to Use</h1>
+         <p>It's easy to make high-quality QR codes in a matter of seconds with our user-friendly and straightforward QR code generator.</p>
+        </div>
+        <div class="box"  >
+        <h1>Easily Download & Use</h1>
+        <p>You can download your QR code as an image when it has been generated.</p>
+        </div>
+        <div class="box" >
+        <h1>Shareable</h1>
+        <p>Give it to your audience in a unique way of sharing links.</p>
+        </div>
+    </div>
+    <div class="QR">
+        <h1>Generate QR Codes From Here</h1>
+    </div>
+    <div class="main">
+        <div class="input-area">
+            <p>Enter your text or URL to generate a QR code:</p>
+            <input type="text" placeholder="Enter text or URL" id="qrInput">
+            <button id="generateQR" onclick="qrGenerator()">Create QR Code</button>
+        </div>
+        <div class="qrImage">
+            <img src="" alt="QR Code" id="imgQr">
+        </div>
+    </div>
+
+    <footer>
+        <p> QR Generator.  | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
