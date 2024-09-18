@@ -323,3 +323,69 @@ footer a {
     text-decoration: none;
     color: #0c0d0e;
 }
+@media (min-width: 600px) {
+    header {
+        flex-direction: row;
+    }
+
+    .nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav li {
+        padding: 0 15px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .hpara {
+        font-size: 28px;
+    }
+
+    .para {
+        font-size: 18px;
+    }
+
+    .specification {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .spec {
+        width: 300px;
+        height: 300px;
+        margin: 0 20px;
+    }
+
+    .features {
+        flex-direction: row;
+    }
+
+    .box {
+        width: 300px;
+        height: 250px;
+        margin: 0 20px;
+    }
+
+    .main {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .main .input-area {
+        flex: 2;
+    }
+
+    .main .qrImage {
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    .main .qrImage img {
+        width: 250px;
+        height: 250px;
+    }
+}
