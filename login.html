@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in</title>
+    <style>
+        body {
+        background-color: #e3eaec;
+    }
+       .log-in{
+        width: 300px;
+        margin: 150px auto; 
+        padding: 20px;
+        background-color: white;
+         border-radius: 10px;
+        text-align: center;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+       }
+       .log-in h2 {
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', serif;
+        font-size: 32px;
+        color: #333;
+    }
+
+    .log-in form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .log-in input[type="text"],
+    .log-in input[type="email"],
+    .log-in input[type="password"] {
+        width: 85%; 
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        background-color: #edfffd;
+    }
+
+    .log-in button {
+        padding: 12px 25px;
+        background-color: rgb(55, 101, 226);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .log-in button:hover {
+        background-color: rgba(7, 112, 138, 0.8);
+    }
+    </style>
+</head>
+<body>
+    <div class="log-in">
+        <h2>Log-in</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Log-in</button>
+        </form>
+    </div>
+</body>
+</html>
